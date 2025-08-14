@@ -120,7 +120,7 @@ let currentPage = 'home';
                 z-index: 10000;
                 animation: fadeIn 0.3s ease;
             `;
-            successMsg.textContent = 'Message sent successfully! We\'ll get back to you soon.';
+            successMsg.textContent = 'There is some issue please contact administrator or email to tratripunithura2019@gmail.com';
             
             document.body.appendChild(successMsg);
             
@@ -161,4 +161,5 @@ function nextImage() {
 function prevImage() {
     currentIndex = (currentIndex - 1 + totalImages) % totalImages; // Loop back to the last image
     showImage(currentIndex);
+
 }
